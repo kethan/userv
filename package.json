@@ -1,0 +1,29 @@
+{
+  "name": "userv",
+  "source": "src/index.ts",
+  "main": "dist/userv.js",
+  "types": "src/types/userv.d.ts",
+  "scripts": {
+    "build": "tsc --module commonjs"
+  },
+  "dependencies": {
+    "urout": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "typescript": "~3.1.1"
+  },
+  "description": "Fast, unopinionated, minimalist server;)",
+  "version": "1.0.0",
+  "keywords": [
+    "API",
+    "userv",
+    "REST",
+    "polka",
+    "server",
+    "express",
+    "urout"
+  ],
+  "author": "Kethan Surana",
+  "license": "ISC"
+}
