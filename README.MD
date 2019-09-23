@@ -15,14 +15,14 @@ A server based on [```urout```](https://github.com/kethan/urout)
 
 # Install
 ```
-$ npm install --save userv
+$ npm install --save userve
 ```
 # Usage
 
 Simple
 
 ```js
-const server = require('userv');
+const server = require('userve');
 const port = 3000;
 
 let app = server();
@@ -47,7 +47,7 @@ app
 
 Complex with express middlewares
 ```js
-const server = require('userv');
+const server = require('userve');
 const compression = require("compression");
 const cors = require('cors');
 const path = require('path')

@@ -1,5 +1,5 @@
 {
-  "name": "userv",
+  "name": "userve",
   "source": "src/index.ts",
   "main": "dist/userv.js",
   "types": "src/types/userv.d.ts",
@@ -14,7 +14,7 @@
     "typescript": "~3.1.1"
   },
   "description": "Fast, unopinionated, minimalist server;)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "API",
     "userv",
@@ -25,5 +25,16 @@
     "urout"
   ],
   "author": "Kethan Surana",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kethan/userv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kethan/userv/issues"
+  },
+  "homepage": "https://github.com/kethan/userv#readme"
 }
