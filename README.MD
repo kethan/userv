@@ -22,11 +22,11 @@ $ npm install --save userve
 Simple
 
 ```js
-const server = require('userve');
+const userve = require('userve');
 const port = 3000;
 
-let app = server();
-let users = server()
+let app = userve.Server();
+let users = userve.Server()
     .get('/', (req, res) => {
         res.end('users!')
     })
@@ -47,7 +47,7 @@ app
 
 Complex with express middlewares
 ```js
-const server = require('userve');
+const userve = require('userve');
 const compression = require("compression");
 const cors = require('cors');
 const path = require('path')
@@ -58,7 +58,7 @@ const helmet = require("helmet");
 const multer = require('multer');
 const upload = multer({ dest: 'uploads/' })
 
-let birds = server()
+let birds = userve.Server()
     .get('/', function (req, res) {
         res.end('Birds home page')
     })
@@ -76,7 +76,7 @@ function two(req, res, next) {
     next();
 }
 
-server()
+userve.Server()
     .use(one, two)
     .use(compression())
     .use(serve)
