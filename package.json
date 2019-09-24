@@ -1,7 +1,7 @@
 {
   "name": "userve",
   "source": "src/index.ts",
-  "main": "dist/userv.js",
+  "main": "dist/index.js",
   "types": "src/types/userv.d.ts",
   "scripts": {
     "build": "tsc --module commonjs"
@@ -14,7 +14,7 @@
     "typescript": "~3.1.1"
   },
   "description": "Fast, unopinionated, minimalist server;)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "API",
     "userv",
